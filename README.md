@@ -12,7 +12,7 @@
   <a href="#-tecnologias-utilizadas">Tecnologias</a> •
   <a href="#-estrutura-do-projeto">Estrutura</a> •
   <a href="#-como-executar">Como Executar</a> •
-  <a href="#-autor">Autor</a>
+  <a href="#-autor">Agradecimentos</a>
 </p>
 
 ---
