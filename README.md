@@ -50,22 +50,23 @@ Este backend foi projetado como parte de um sistema completo de e-commerce, com 
 
 ## 📁 Estrutura do Projeto
 
+```bash
 digital-api/
 ├── src/
-│ ├── config/ # Configuração do banco de dados e ambiente
-│ ├── controllers/ # Lógica das rotas
-│ ├── middleware/ # Middlewares de autenticação e validação
-│ ├── models/ # Modelos Sequelize
-│ ├── routes/ # Definições de rotas
-│ ├── services/ # Regras de negócio
-│ ├── database/ # Migrations e seeds
-│ ├── app.js # Inicialização do Express
-│ └── server.js # Entrada da aplicação
-├── .env
-├── .gitignore
-├── package.json
-└── README.md
-
+│   ├── config/         # Configurações de ambiente e banco de dados
+│   ├── controllers/    # Camada responsável por receber e responder requisições
+│   ├── middleware/     # Interceptadores de requisições (ex: autenticação)
+│   ├── models/         # Definições dos modelos (Sequelize)
+│   ├── routes/         # Mapeamento das rotas da API
+│   ├── services/       # Regras de negócio reutilizáveis
+│   ├── database/       # Migrations, seeds e conexão
+│   ├── app.js          # Instância e configuração do Express
+│   └── server.js       # Ponto de entrada da aplicação
+├── .env                # Variáveis de ambiente
+├── .gitignore          # Arquivos e pastas ignorados pelo Git
+├── package.json        # Dependências e scripts do projeto
+└── README.md           # Documentação do projeto
+```
 
 ## 🚀 Como Executar
 
@@ -95,7 +96,7 @@ docker run --name db-digital -e POSTGRES_PASSWORD=docker -e POSTGRES_USER=docker
 
 # Rode as migrations e inicie o servidor
 npm run dev
-
+```
 
 ---
 
@@ -115,5 +116,5 @@ Deixo também, um agradecimento mais que especial para:
 
 ---
 
-Desenvolvido por *JulianSolo*
-Atualização em: 30/06/2025
+Desenvolvido por *JulianSolo*.
+Atualização em: 30/06/2025.
