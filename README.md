@@ -6,16 +6,6 @@
   Uma API RESTful desenvolvida para representar a base sólida de um sistema de e-commerce moderno, modular e escalável. Criada com amor por alguém que acredita no poder transformador da tecnologia.
 </p>
 
-<p align="center">
-  <a href="#-sobre-o-projeto">Sobre</a> •
-  <a href="#-funcionalidades">Funcionalidades</a> •
-  <a href="#-tecnologias-utilizadas">Tecnologias</a> •
-  <a href="#-estrutura-do-projeto">Estrutura</a> •
-  <a href="#-como-executar">Como Executar</a> •
-  <a href="#-autor">Agradecimentos</a>
-</p>
-
----
 
 ## 💡 Sobre o Projeto
 
@@ -62,8 +52,6 @@ digital-api/
 │   ├── database/       # Migrations, seeds e conexão
 │   ├── app.js          # Instância e configuração do Express
 │   └── server.js       # Ponto de entrada da aplicação
-├── .env                # Variáveis de ambiente
-├── .gitignore          # Arquivos e pastas ignorados pelo Git
 ├── package.json        # Dependências e scripts do projeto
 └── README.md           # Documentação do projeto
 ```
@@ -116,5 +104,5 @@ Deixo também, um agradecimento mais que especial para:
 
 ---
 
-Desenvolvido por *JulianSolo*.
+Desenvolvido por *JulianSolo* ||
 Atualização em: 30/06/2025.
